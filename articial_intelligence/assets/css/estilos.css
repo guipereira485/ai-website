@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.container-cabecalho{
+    text-align: center;
+    padding: 20px;
+    background-color: #032b4e;
+}
+
+.container-cabecalho h3{
+    font-weight: 600;
+    font-size: 2em;
+    color: #1886e6de;
+}
+
+.container-navegacao{
+    text-align: center;
+    padding: 20px;
+    background-color: #06345d;
+}
+
+.container-navegacao a{
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #62ddd3;
+}
+
+.container-cabecalho a:hover{
+    color: #fff;
+}
+
+.container-quem-somos{
+    background-color: #021b31;
+    overflow: auto;
+}
+
+.container-quem-somos .servico{
+    float: center;
+    margin: 60px auto;
+    background-color: #0a2741;
+    width: 50%;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container-quem-somos .servico .icone{
+    margin-bottom: 10px;
+}
+
+.container-quem-somos .servico-texto{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: rgb(13, 204, 204);
+}
+
+.container-quem-somos .servico-texto-realce{
+    color: #fff;
+    font-weight: bold;
+}
+
+.container-servicos{
+    background-color: #021b31;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-servicos h3{
+    color: #1886e6de;
+    padding: 20px 0;
+}
+
+.container-servicos article{
+    width: 40%;
+    margin: auto;
+    float: center;
+}
+
+.container-servicos li{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.container-contatos{
+    background-color: #05192a;
+    padding: 80px;
+}
+
+.container-contatos h1{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3{
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 20px;
+    background-color: #031320;
+    border: 1px solid #1aa599;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-contatos .contatos{
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #1aa599;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 70px;
+    background-color: #021b31;
+    color: #c2b9b9;
+}
+
+.container-servicos-contatos{
+    background-color: #06345d;
+    padding: 75px;
+    text-align: center;
+}
+
+.container-servicos-contatos .botoes-servicos-contatos {
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servicos-contatos a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.3em;
+    background-color: #1aa599;
+    color: #fff;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.botoes-servicos-contatos a:hover{
+    background-color: #fff;
+    color: #000;
+}
